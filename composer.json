@@ -1,0 +1,32 @@
+{
+    "name": "cwdt/hexagonal-presentation-ptf",
+    "description": "Hexagonal Permission to Fly application build for Meetup",
+    "type": "project",
+    "require": {
+        "php": "^7.1",
+        "xtreamwayz/pimple-container-interop": "^1.0",
+        "webmozart/console": "~1.0@beta",
+        "symfony/debug": "^3.3"
+    },
+    "require-dev": {
+        "behat/behat": "^3.4",
+        "phpunit/phpunit": "^6.3",
+        "php-di/php-di": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Marco Veenendaal",
+            "email": "marco@cwdt.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    }
+}

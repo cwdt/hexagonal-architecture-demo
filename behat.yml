@@ -1,0 +1,6 @@
+default:
+    suites:
+        application:
+            paths: [ "%paths.base%/test/Application/features"]
+            contexts:
+                - Tests\Application\ChangeStatusFeatureContext
