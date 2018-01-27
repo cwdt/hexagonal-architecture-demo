@@ -31,8 +31,8 @@ class PtfApplicationConfig extends DefaultApplicationConfig
             ->beginCommand('change-status')
                 ->setDescription('Change status')
                 ->addArgument('state', Argument::REQUIRED, 'State')
-                ->addArgument('from', Argument::REQUIRED, 'From (yyyy-mm-dd)')
-                ->addArgument('until', Argument::REQUIRED, 'Until (yyyy-mm-dd)')
+                ->addArgument('from', Argument::REQUIRED, 'From (supported DateTime format)')
+                ->addArgument('until', Argument::REQUIRED, 'Until (supported DateTime format)')
                 ->setHandler(function() {
                     return $this->container->get(ChangeStatusCliHandler::class);
                 })

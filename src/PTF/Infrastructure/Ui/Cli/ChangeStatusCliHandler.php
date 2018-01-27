@@ -4,7 +4,7 @@ namespace PTF\Infrastructure\Ui\Cli;
 
 use DateTime;
 use PTF\Application\ChangeStatus\ChangeStatusCommand;
-use Ptf\Application\ValidationException;
+use PTF\Application\ValidationException;
 use PTF\Infrastructure\CommandBus\CommandBusInterface;
 use Webmozart\Console\Api\Args\Args;
 use Webmozart\Console\Api\IO\IO;

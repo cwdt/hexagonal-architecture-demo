@@ -10,7 +10,7 @@ use PTF\Application\ChangeStatus\ChangeStatusValidator;
 use PTF\Application\GetState\GetStateHandler;
 use PTF\Application\GetState\GetStateQuery;
 use PTF\Application\GetState\GetStateResponse;
-use Ptf\Application\ValidationException;
+use PTF\Application\ValidationException;
 use PTF\Infrastructure\Persistence\InMemory\StatusRepository;
 use PTF\Infrastructure\Persistence\Mock\DaytimeRepository;
 use RuntimeException;

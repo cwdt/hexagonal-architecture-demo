@@ -1,0 +1,1 @@
+bin/deptrac.phar analyze --formatter-graphviz=0

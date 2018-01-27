@@ -2,7 +2,7 @@
 
 namespace PTF\Application\ChangeStatus;
 
-use Ptf\Application\ValidationException;
+use PTF\Application\ValidationException;
 use PTF\Domain\Daytime\DaytimeRepository;
 use PTF\Domain\Status\State;
 
@@ -16,6 +16,12 @@ class ChangeStatusValidator
         $this->daytimeRepository = $daytimeRepository;
     }
 
+    /**
+     * @param ChangeStatusCommand $command
+     *
+     * @return bool
+     * @throws ValidationException
+     */
     public function validate(ChangeStatusCommand $command): bool
     {
         $errors = [];

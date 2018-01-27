@@ -1,6 +1,6 @@
 <?php
 
-namespace Ptf\Application;
+namespace PTF\Application;
 
 use Exception;
 
