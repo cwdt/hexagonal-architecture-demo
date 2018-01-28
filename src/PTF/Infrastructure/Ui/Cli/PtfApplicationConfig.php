@@ -2,7 +2,7 @@
 
 namespace PTF\Infrastructure\Ui\Cli;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Webmozart\Console\Api\Args\Format\Argument;
 use Webmozart\Console\Config\DefaultApplicationConfig;
 

@@ -3,7 +3,7 @@
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Tools\Console\ConsoleRunner;
 
-$container = require __DIR__ . '/../app/container.php';
+$container = require __DIR__ . '/../app/bootstrap.php';
 
 $entityManager = $container->get(EntityManager::class);
 

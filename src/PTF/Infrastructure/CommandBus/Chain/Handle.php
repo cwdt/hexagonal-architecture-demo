@@ -2,7 +2,7 @@
 
 namespace PTF\Infrastructure\CommandBus\Chain;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use PTF\Infrastructure\CommandBus\CommandBusInterface;
 
 class Handle implements CommandBusInterface

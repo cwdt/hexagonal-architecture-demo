@@ -2,7 +2,7 @@
 
 namespace PTF\Infrastructure\QueryBus;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 
 class QueryBus implements QueryBusInterface
 {

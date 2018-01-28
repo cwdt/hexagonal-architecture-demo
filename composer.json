@@ -4,12 +4,12 @@
     "type": "project",
     "require": {
         "php": "^7.1",
-        "xtreamwayz/pimple-container-interop": "^1.0",
         "webmozart/console": "~1.0@beta",
         "symfony/debug": "^3.3",
         "doctrine/orm": "^2.6",
         "symfony/yaml": "*",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "bitexpert/disco": "^0.9.0"
     },
     "require-dev": {
         "behat/behat": "^3.4",
@@ -24,7 +24,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "App\\": "app/",
+            "PTF\\": "src/PTF"
         }
     },
     "autoload-dev": {
