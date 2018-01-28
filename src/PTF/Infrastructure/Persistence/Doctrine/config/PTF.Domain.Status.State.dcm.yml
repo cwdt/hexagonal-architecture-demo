@@ -1,0 +1,4 @@
+PTF\Domain\Status\State:
+  type: embeddable
+  fields:
+    state: { type: string }

@@ -1,0 +1,22 @@
+PTF\Domain\Status\Status:
+  type: entity
+  repositoryClass: PTF\Infrastructure\Persistence\Doctrine\StatusRepository
+  table: status
+  id:
+    guid:
+      type: string
+      generator:
+        strategy: NONE
+  embedded:
+    state:
+      class: PTF\Domain\Status\State
+  fields:
+    from:
+      type: datetime
+      column: date_from
+    until:
+      type: datetime
+      column: date_until
+    createdAt:
+      type: datetime
+      column: created_at

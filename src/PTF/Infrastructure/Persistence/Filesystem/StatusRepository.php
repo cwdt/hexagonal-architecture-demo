@@ -2,8 +2,6 @@
 
 namespace PTF\Infrastructure\Persistence\Filesystem;
 
-use DateTime;
-use PTF\Domain\Status\Status;
 use PTF\Domain\Status\StatusRepository as StatusRepositoryInterface;
 use PTF\Infrastructure\Persistence\Common\StatusRepository as AbstractStatusRepository;
 

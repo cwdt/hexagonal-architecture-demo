@@ -6,7 +6,10 @@
         "php": "^7.1",
         "xtreamwayz/pimple-container-interop": "^1.0",
         "webmozart/console": "~1.0@beta",
-        "symfony/debug": "^3.3"
+        "symfony/debug": "^3.3",
+        "doctrine/orm": "^2.6",
+        "symfony/yaml": "*",
+        "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
         "behat/behat": "^3.4",
